@@ -1,0 +1,24 @@
+NEW SEETHA STUDIO - FIXED BUILD
+
+Fixed:
+- Mobile cart icon visibility.
+- WhatsApp Use cart button now updates when cart contents change.
+- Empty cart order button is disabled.
+- Light-mode header logo switching while keeping the correct logo on the dark footer.
+- Theme button labels and compatibility fallback.
+- Mobile menu closes on outside click, navigation, and Escape.
+- Gallery autoplay pauses in the lightbox and when the browser tab is hidden.
+- Gallery focus returns correctly after closing the lightbox.
+- Banner sizing and centering on mobile, desktop, and wide screens.
+- Login error messages clear while editing credentials.
+- Remember-login now stores only the username, not an extra copy of the password.
+- Session storage access is guarded so restricted storage does not crash management pages.
+- WhatsApp button feedback animation selectors.
+- Outdated gallery README filenames and instructions.
+- Cart total format consistency.
+
+Validation:
+- JavaScript syntax check passed.
+- CSS parser check passed.
+- All local HTML, CSS, JavaScript, and image references resolved.
+- All 12 HTML pages initialized without JavaScript page errors in runtime DOM tests.

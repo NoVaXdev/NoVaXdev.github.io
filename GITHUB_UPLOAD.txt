@@ -1,0 +1,30 @@
+GITHUB PAGES IMAGE FIX
+
+Cause:
+The website code points to image files inside assets/, but the GitHub repository did not contain the assets directory.
+
+Upload the COMPLETE contents of this folder to the root of:
+NoVaXdev/NoVaXdev.github.io
+
+Required structure:
+assets/
+  banner/home-banner.png
+  gallery/gallery-01.jpeg ... gallery-08.jpeg
+  services/photography-bg.png
+  services/framing-bg.png
+  services/gifts-bg.png
+index.html
+script.js
+style.css
+logo.png
+logo-light.png
+...other HTML files
+
+Important:
+Keep filenames and capitalization exactly as supplied.
+Do not upload the image files into the repository root. Preserve the assets subfolders.
+
+After committing, open:
+https://novaxdev.github.io/
+
+If old content remains in the browser, hard refresh with Ctrl+F5.
